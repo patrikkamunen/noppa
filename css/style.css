@@ -1,7 +1,7 @@
 #dice {
     width: 100px;
     height: 100px;
-    cursor:crosshair
+    cursor:pointer;
 }
 img {
     width: 100px;
