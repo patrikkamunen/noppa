@@ -5,7 +5,7 @@ function rollDice() {
 function changeDiceImage() {
     const diceNumber = rollDice(); 
     const diceImage = document.getElementById("diceImage"); 
-    diceImage.src = `../noppa/img/${diceNumber}.png`; 
+    diceImage.src = `./img/${diceNumber}.png`; 
 }
 
 const diceDiv = document.getElementById("dice");
